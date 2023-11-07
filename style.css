@@ -88,6 +88,23 @@ main img {
     font-size: 1rem;
 }
 
+button {
+        display: block;
+        background-color: #d79889;
+        border-style: outset;
+        color: black;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
+        padding: 0.5em;
+        border-radius: 10px;
+        border: 7px solid #f14171;
+}
+
+main a {
+    text-decoration: none;
+}
+
 /* footer */
 
 footer {

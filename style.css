@@ -23,20 +23,23 @@
 
 header ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     background-color: #6c733d;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
-header li{
-    padding: 0.5em;
+header li {
     margin: 0.5em;
+    padding: 0.5em;
     border: 0.5em solid #7e49ef;
     background-color: #d8704a;
     color: white;
     list-style: none;
 }
 
-header li a{
+header li a {
     color: white;
     text-decoration: none;
     font-size: large;
@@ -48,7 +51,6 @@ header {
     position: fixed;
     bottom: 0;
     width: 100%;
-    
 }
 
 /* body */ 
@@ -99,11 +101,15 @@ footer img {
 
 @media (max-width: 768px) {
     .dag {
-        flex-direction: column; /* Stapel de afbeelding en tekst op kleinere schermen */
+        flex-direction: column;
     }
 
     .image,
     .text {
-        max-width: 100%; /* Maak de tekst en afbeelding 100% breedte op kleinere schermen */
+        max-width: 100%;
+    }
+
+    header li {
+        margin: 2px;
     }
 }

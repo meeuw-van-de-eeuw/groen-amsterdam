@@ -65,17 +65,17 @@ body {
 }
 
 h1 {
-    padding: 20px;
+    padding: 0.5em;
 }
 
 h2 {
     font-style: italic;
-    padding: 20px;
+    padding-bottom: 0.5em;
 }
 
 main p {
-    padding: 1.5em;
-    line-height: 2em;
+    padding: 2em;
+    line-height: 28px;
 }
 
 main img {
@@ -150,7 +150,7 @@ footer img {
 }
 
 footer a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #4a6b57;
 }
 

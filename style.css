@@ -114,6 +114,20 @@ button {
 
 main a {
     text-decoration: none;
+    color: #f14171;
+}
+
+main a:visited {
+    color: #746252;
+}
+
+.logo {
+    padding-bottom: 40px;
+}
+
+.foto {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
 }
 
 /* footer */
@@ -134,8 +148,13 @@ footer img {
     align-self: center;
 }
 
-footer a:link, a:visited, a:hover, a:active {
+footer a {
     text-decoration: none;
+    color: black;
+}
+
+footer a:visited {
+    color: #746252;
 }
 
 /* media */

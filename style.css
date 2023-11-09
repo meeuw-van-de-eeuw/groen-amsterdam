@@ -100,7 +100,7 @@ main img {
     font-size: 1rem;
 }
 
-button {
+a span {
         display: block;
         background-color: #d79889;
         border-style: outset;
@@ -111,7 +111,8 @@ button {
         padding: 0.5em;
         border-radius: 10px;
         border: 7px solid #f14171;
-        margin-left: 120px;
+        margin-left: 100px;
+        margin-right: 100px;
         margin-bottom: 20px;
 }
 

@@ -116,6 +116,14 @@ main img {
         margin-bottom: 20px;
 }
 
+.button a {
+    color: black;
+}
+
+.button a:visited {
+    color: black;
+}
+
 main a {
     text-decoration: none;
     color: #f14171;
@@ -127,11 +135,6 @@ main a:visited {
 
 .logo {
     padding-bottom: 40px;
-}
-
-.foto {
-    padding-top: 0.5em;
-    padding-bottom: 1em;
 }
 
 /* footer */
